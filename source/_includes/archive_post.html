@@ -6,3 +6,8 @@
   <span class="categories">posted in {{ post.categories | category_links }}</span>
 </div>
 {% endif %}
+{% if tag != '0' %}
+<div>
+  <span class="tags">tagged with {{ post.tags | tag_links }}</span>
+</div>
+{% endif %}
