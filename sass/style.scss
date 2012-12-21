@@ -403,6 +403,11 @@ aside {
 	padding-right: 20px;
 	}
 
+  p {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
 }
 
 /* Extra queries just in case... */
